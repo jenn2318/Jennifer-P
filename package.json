@@ -1,0 +1,24 @@
+{
+  "name": "jennifer-p",
+  "version": "1.0.0",
+  "description": "My Interactive Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenn2318/Jennifer-P.git"
+  },
+  "author": "Jennifer Ponder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenn2318/Jennifer-P/issues"
+  },
+  "homepage": "https://github.com/jenn2318/Jennifer-P#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
