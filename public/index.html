@@ -1,52 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>-->
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1"/>-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>My Interactive Portfolio</title>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <style>
-        body, html {
-            height: 100%;
+
+        .profile1 {
+            height: 300% !important;
+            margin-bottom: -31% !important;
         }
 
-        .bg {
-            /* The image used */
-            background-image: url("jenn2.jpg");
+        .profile2 {
+            height: 30% !important;
+        }
 
-            /* Full height */
-            height: 100%;
+        h5 {
+            color: black !important;
+        }
 
-            /* Center and scale the image nicely */
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
+        p { color: black !important;
+        }
+
+        footer {
+            background-color: black !important;
         }
     </style>
+
 </head>
-<body>
+
+<body class="#cfd8dc blue-grey lighten-4">
+<!--<nav class="black" role="navigation">-->
+    <!--<div class="nav-wrapper container">-->
+        <!--<a id="logo-container" href="#" class="brand-logo">Jennifer Ponder</a>-->
+
+        <!--<ul class="right hide-on-med-and-down">-->
+            <!--<li><a href="#">Home</a></li>-->
 
 
-<!--<footer>-->
-    <!--<div class="footer-copyright">-->
+        <!--<ul id="nav-mobile" class="sidenav">-->
+            <!--<li><a href="#">Projects</a></li>-->
+
+
+        <!--<ul id="nav-mobile" class="sidenav">-->
+            <!--<li><a href="#">Contact</a></li>-->
+
+        <!--<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>-->
+            <!--</ul>-->
+    <!--</div>-->
+<!--</nav>-->
+
+<nav>
+    <div class="nav-wrapper #000000 black ">
+
+        <a href="index.html" class="brand-logo"><i class="material-icons"></i>Jennifer Ponder</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!--Nav-Bar text-shadowing-->
+    </div>
+
+
+<div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <br><br>
+            <!--<h1 class="header center teal-text text-lighten-2">Who Is Jennifer Ponder</h1>-->
+            <div class="row center">
+                <!--<h5 class="header col s12 light">This Interactive Portfolio Will Introduce Her...</h5>-->
+            </div>
+            <!--<div class="row center">-->
+                <!--<a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>-->
+            <!--</div>-->
+            <br><br>
+
+        </div>
+    </div>
+    <div class="parallax"><img class="profile1" src="assets/images/jenn2.jpg" alt="Unsplashed background image 1"></div>
+</div>
+
+
+<div class="container">
+    <div class="section">
+
+        <!--   Icon Section   -->
+        <div class="row">
+            <h1 class="header center teal-text text-lighten-2">Who Is Jennifer Ponder...</h1>
+            <div class="row center">
+            <h5 class="header col s12 light">This Interactive Portfolio Will Introduce Her</h5>
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center purple-text"><i class="material-icons">flash_on</i></h2>
+                    <h5 class="center">She has a love for development</h5>
+
+                    <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center purple-text"><i class="material-icons">group</i></h2>
+                    <h5 class="center">Meticulous in her designs</h5>
+
+                    <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework.</p>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center purple-text"><i class="material-icons">settings</i></h2>
+                    <h5 class="center">Traveling is where her heart is</h5>
+
+                    <p class="light">We have provided detailed documentation as well as specific code examples to help new users.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <div class="row center">
+                <!--<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>-->
+            </div>
+        </div>
+    </div>
+    <div class="parallax"><img class="profile2" src="assets/images/background_palm.jpg" alt="Unsplashed background img 2"></div>
+</div>
+
+<div class="container">
+    <div class="section">
+
+        <!--<div class="row">-->
+            <!--<div class="col s12 center">-->
+                <!--<h3><i class="mdi-content-send brown-text"></i></h3>-->
+                <!--<h4>Contact Us</h4>-->
+                <!--<p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>-->
+            <!--</div>-->
+        <!--</div>-->
+
+    </div>
+</div>
+
+
+<!--<div class="parallax-container valign-wrapper">-->
+    <!--<div class="section no-pad-bot">-->
         <!--<div class="container">-->
-            <!--Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>-->
+            <!--<div class="row center">-->
+                <!--<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>-->
+            <!--</div>-->
         <!--</div>-->
     <!--</div>-->
-<!--</footer>-->
+    <!--<div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>-->
+<!--</div>-->
+
+<!--<footer class="page-footer teal">-->
+    <!--<div class="container">-->
+        <!--<div class="row">-->
+            <!--<div class="col l6 s12">-->
+                <!--<h5 class="white-text">Company Bio</h5>-->
+                <!--<p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>-->
+
+
+
+        <!--</div>-->
+    <!--</div>-->
+
+<footer>
+    <div class="footer-copyright">
+        <div class="container">
+            <!--Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>-->
+            © 2018 Jennifer Ponder
+            <a class="white-text text-lighten-4 right" href="#!">June 10, 2018</a>
+        </div>
+    </div>
+</footer>
 
 
 <!--  Scripts-->
-    <script
-            src="http://code.jquery.com/jquery-3.3.1.js"
-            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-            crossorigin="anonymous"></script>
-
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 <script src="js/app.js"></script>
+
 
 </body>
 </html>
