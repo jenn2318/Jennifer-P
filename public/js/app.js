@@ -12,3 +12,5 @@ $(document).ready(function(){
 });
 
 var instance = M.Parallax.getInstance(elem);
+
+
