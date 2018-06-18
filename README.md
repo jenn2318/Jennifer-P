@@ -3,7 +3,7 @@
 
 ## My Interactive Portfolio
 
-This portfiio will showcase projects that I have put together over the past 6 months, as my journey into Full Stack Web Development begins.
+This portfiio will showcase projects that I have put together over the past 6 months, since the start of my journey into Full Stack Web Development.
 
 ### Tech Stack used
 HTML
