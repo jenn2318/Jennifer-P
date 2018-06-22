@@ -11,4 +11,5 @@ CSS
 Materialize/CSS/JS
 
 ![home page](public/assets/images/portfolio_profile.jpg)
-![home page](public/assets/images/portfolio_body.jpg)
+![projects page](public/assets/images/portfolio_body.jpg)
+![contact page](public/assets/images/contact_page.jpg)
