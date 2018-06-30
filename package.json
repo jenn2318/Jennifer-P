@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/jenn2318/Jennifer-P/issues"
   },
-  "homepage": "https://github.com/jenn2318/Jennifer-P#readme",
+  "homepage": "https://jenn2318.github.io/Jennifer-P/",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3"
